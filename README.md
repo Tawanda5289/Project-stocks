@@ -39,6 +39,7 @@ class TradingStrategy:
     """
     This class implements a trading strategy based on two-week returns.
     """
+    
     def __init__(self, returns, initial_capital):
         self.returns = returns
         self.capital = initial_capital
